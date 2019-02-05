@@ -9,9 +9,9 @@ int main()
 	string s1="hello";
 	string s2=s1 + "	world";
 	
-	cout<<"s0="<<s0<<endl;
+	cout<<"s0= "<<s0<<endl;
 	cout<<"s1="<<s1<<endl;
-	cout<<"s1 has "<<s1.size()<<"characters"<<endl;
+	cout<<"s1 has "<<s1.size()<<" characters"<<endl;
 	if (s1=="hello")
 		cout<<"Hi there!"<<endl;
 	if (s2!="world")
